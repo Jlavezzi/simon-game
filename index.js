@@ -5,7 +5,7 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$('.btn').on('click', function() {
+$('.btn').on('touchstart', function() {
   if (!started) {
     $('#level-title').text('Level ' + level);
     nextSequence();
