@@ -10,7 +10,7 @@ var started= false;
 var level = 0;
 
 //keypress event listener
-$(document).on('keypress' ,function(){
+$(document).on('click' ,function(){
   //code to be executed when a key id pressed
 
   // started is triggered by pressing a key on the keyboard, if keyboard is pressed, it deactivates this function by moving to nextSequence, if not,
